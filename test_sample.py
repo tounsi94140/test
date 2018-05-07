@@ -2,6 +2,11 @@
 def inc(x):
     return x + 1
 
+def dec(x):
+    return x - 1
+
 def test_answer():
     assert inc(3) == 2
+def test_dec():
+    assert dec(4) == 3
 
